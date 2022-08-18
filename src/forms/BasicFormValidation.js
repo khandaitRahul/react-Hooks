@@ -14,7 +14,7 @@ const BasicFormValidation = () => {
       const newEntry = { id: new Date().getTime().toString(), email, password }
       console.log(newEntry)
       setAllEntry([...allEntry, newEntry])
-      console.log(setAllEntry);
+      console.log(allEntry)
 
       setEmail("");
       setPassword("");
