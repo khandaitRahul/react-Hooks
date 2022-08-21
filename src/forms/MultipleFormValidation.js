@@ -31,6 +31,9 @@ const MulFormVal = () => {
     <div className="App form-container">
       <form action="" className="form" onSubmit={handleSubmit}>
 
+        <h1 className="header">Signup</h1>
+        <div className="divider"></div>
+
         <div className="form-body">
           <label htmlFor="username" className="tag">username</label>
           <input type="text" autoComplete="off" name="username" className="type-bar"

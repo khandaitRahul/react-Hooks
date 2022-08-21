@@ -5,15 +5,26 @@
 }
 .form {
   min-width: 30vw;
-  min-height: 35vh;
+  min-height: 50vh;
   border: 1px solid transparent;
   border-radius: 10px;
   background-color: #596c7c;
   padding: 50px 10px 10px 10px;
 }
+.header {
+  text-align: end;
+  padding: 0px 10px 0px 0px;
+}
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 10px;
+}
 .tag {
   color: #f0f8ff;
-  font-size: 25px;
+  font-size: 20px;
+  letter-spacing: 1px;
   display: block;
   margin: 20px 0px 8px 0px;
 }

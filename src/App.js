@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
 import './App.css';
-import BasicFormValidation from './forms/BasicFormValidation';
-import MulFormVal from './forms/MultipleFormValidation';
+import RootForm from './forms/RootForm';
 import RootHooks from './Hooks/RootHooks';
+import RootUseEffects from './UseEffect/RootUseEffects';
 
 function App() {
 
@@ -11,8 +11,8 @@ function App() {
     <Router>
       <Routes>
         <Route path='/hooks' element={<RootHooks />} />
-        {/* <Route path='/' element={<BasicFormValidation />} /> */}
-        <Route path="/" element={<MulFormVal />} />
+        <Route path="/form" element={<RootForm />} />
+        <Route path="/" element={<RootUseEffects />} />
       </Routes>
     </Router>
   );
