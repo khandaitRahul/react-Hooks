@@ -11,8 +11,8 @@ function App() {
     <Router>
       <Routes>
         <Route path='/hooks' element={<RootHooks />} />
-        <Route path="/form" element={<RootForm />} />
-        <Route path="/" element={<RootUseEffects />} />
+        <Route path="/" element={<RootForm />} />
+        <Route path="/useeffects" element={<RootUseEffects />} />
       </Routes>
     </Router>
   );

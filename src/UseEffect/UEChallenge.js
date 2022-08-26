@@ -10,7 +10,7 @@ const UEChallenge = () => {
     } else {
       document.title = `chats`
     }
-  });
+  }, [count]);
 
   console.log("outside USEFFECTS")
 
